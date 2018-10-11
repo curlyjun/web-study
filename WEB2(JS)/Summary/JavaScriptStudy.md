@@ -21,4 +21,34 @@ document.write(1+1);
 
 ### 데이터타입 - 문자열과 숫자
 ### 변수와 대입 연산자
- -정리 할 것 없음(해당 부분은 모두 아는 내용)
+ - 정리 할 것 없음(해당 부분은 모두 아는 내용)
+
+### 웹브라우저 제어
+- 배울내용 소개하는 느낌
+
+### CSS 기초
+- 배웠지만 복습겸 학습
+
+### 제어할 태그 선택하기
+-body 스타일 변경 방법
+```{.html}
+<input type="button" value="night" onclick="
+document.querySelector('body').style.backgroundColor = 'black';
+document.querySelector('body').style.color = 'white'">
+<input type="button" value="day" onclick="
+document.querySelector('body').style.backgroundColor = 'white';
+document.querySelector('body').style.color = 'black'">
+```
+
+### 프로그램, 프로그래밍, 프로그래머
+- program이라는 말의 중심에는 순서라는 의미가 있다.
+- html은 시간의 순서에 따라 무엇을 할 필요가 없기 때문에  프로그래밍 언어라고 할 수 없다.
+반면에 JavaScript는 프로그래밍 언어임. 시간의 순서에 따라 코드가 실행되므로.
+
+### 조건문 관련 강의
+- 비교 연산자  [1 == "1"]일때  '==' 는  true가 나오고   
+'===' false가 나온다.  '===' 는 데이터 타입까지 완전히 같다는 의미.(=== 사용 권장)
+- html 에서 '>' 는 '&gt' (greater than) '<'는 '&lt' (less than) 임.
+
+### 리펙토링
+- 코드의 효율성, 가독성, 유지보수의 편리성, 중복된 코드 제거를 위한 작업
