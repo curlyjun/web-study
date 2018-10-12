@@ -52,3 +52,6 @@ document.querySelector('body').style.color = 'black'">
 
 ### 리펙토링
 - 코드의 효율성, 가독성, 유지보수의 편리성, 중복된 코드 제거를 위한 작업
+
+### 배열 뒤 강의
+- C#과 매우 흡사하여 2배속으로 넘김.
