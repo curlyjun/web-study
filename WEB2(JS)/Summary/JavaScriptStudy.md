@@ -30,7 +30,7 @@ document.write(1+1);
 - 배웠지만 복습겸 학습
 
 ### 제어할 태그 선택하기
--body 스타일 변경 방법
+- body 스타일 변경 방법
 ```{.html}
 <input type="button" value="night" onclick="
 document.querySelector('body').style.backgroundColor = 'black';
